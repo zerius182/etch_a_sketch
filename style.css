@@ -43,3 +43,19 @@ html, body{
     height: 70%;
     border-radius: 5px;
 }
+
+#knobs-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+    width: 100%;
+}
+
+#left-knob, #right-knob{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(231, 226, 226);
+    border-radius: 50%;
+    margin: 20px;
+}

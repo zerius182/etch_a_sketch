@@ -6,6 +6,7 @@
 
 html, body{
     height: 100vh;
+    background-color: rgb(19, 163, 163);
 }
 
 @font-face {
@@ -13,10 +14,18 @@ html, body{
     src: url(rondo.ttf);
 }
 
+button{
+    font-size: 30px;
+    font-family: etching;
+    background-color: rgb(19, 163, 163);
+    color: rgba(218, 170, 13, 0.774);
+}
+
+
 #main-container{
     height: 100vh;
-    background-color: rgb(19, 163, 163);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -26,8 +35,8 @@ html, body{
     flex-direction: column;
     align-items: center;
     background-color: rgb(202, 51, 51);
-    height: 80vh;
-    width: 70vw;
+    height: 600px;
+    width: 600px;
     border-radius: 10px;
 }
 
@@ -38,24 +47,33 @@ html, body{
 }
 
 #screen-container{
-    background-color: grey;
-    width: 90%;
-    height: 70%;
+    background-color: gray;
+    width: 80%;
+    height: 80%;
     border-radius: 5px;
+    display: grid;
 }
 
 #knobs-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30%;
+    height: 20%;
     width: 100%;
 }
 
 #left-knob, #right-knob{
     height: 100px;
     width: 100px;
-    background-color: rgb(231, 226, 226);
+    background-color: rgb(209, 207, 207);
     border-radius: 50%;
     margin: 20px;
+}
+
+#clear-button{
+    padding: 10px 40px 10px 10px;
+}
+
+#change-colour{
+    padding: 10px 10px 10px 40px;
 }

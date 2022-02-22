@@ -8,8 +8,9 @@ function buttonDown(){
     active = true;
 }
 
-function buttonUp(){
+function buttonUp(e){
     active = false;
+    e.stopPropagation();
 }
 
 function clearScreen(){

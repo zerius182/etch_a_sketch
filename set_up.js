@@ -1,8 +1,9 @@
 const ETCH_A_SKETCH = document.querySelector("#screen-container");
 const CLEARBUTTON = document.querySelector("#clear-button");
+const COLOURBUTTON = document.querySelector("#colour-picker");
 
 let active = false;
-let colour = "rgb(58, 57, 57)";
+let colour = "#3a3939";
 
 function setUpScreen(){
     ETCH_A_SKETCH.style.gridTemplateColumns ="repeat(100, 1fr)";

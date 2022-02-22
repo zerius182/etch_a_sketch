@@ -1,7 +1,9 @@
 function sketch(e){
     if(active){
         e.target.style.backgroundColor =  colour;
+        SCRIBBLE.play();
     }
+    playMusic();
 }
 
 function buttonDown(){

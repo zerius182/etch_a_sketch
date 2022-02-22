@@ -18,7 +18,13 @@ function clearScreen(){
     setUpScreen();
 }
 
+function changeColour(e){
+    colour = e.target.value;
+    console.log(colour);
+}
+
 CLEARBUTTON.addEventListener("click", clearScreen);
 ETCH_A_SKETCH.addEventListener("mouseleave", buttonUp);
+COLOURBUTTON.addEventListener("change", changeColour);
 
 setUpScreen();

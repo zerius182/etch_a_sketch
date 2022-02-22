@@ -6,7 +6,8 @@
 
 html, body{
     height: 100vh;
-    background-color: rgb(19, 163, 163);
+    background: url("playroom.jpg");
+    background-size: 100%;
 }
 
 @font-face {
@@ -17,8 +18,8 @@ html, body{
 button, label{
     font-size: 30px;
     font-family: etching;
-    background-color: rgb(19, 163, 163);
     color: rgba(218, 170, 13, 0.774);
+    background-color: transparent;
 }
 
 

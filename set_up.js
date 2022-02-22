@@ -1,6 +1,8 @@
 const ETCH_A_SKETCH = document.querySelector("#screen-container");
 const CLEARBUTTON = document.querySelector("#clear-button");
 const COLOURBUTTON = document.querySelector("#colour-picker");
+const SCRIBBLE = document.querySelector("#scribble");
+const MUSIC = document.querySelector("#music");
 
 let active = false;
 let colour = "#3a3939";
@@ -16,5 +18,9 @@ function setUpScreen(){
         gridElement.addEventListener("mouseup", buttonUp);
         ETCH_A_SKETCH.appendChild(gridElement);
     }
+}
+
+function playMusic(){
+    MUSIC.play()
 }
 

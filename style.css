@@ -20,6 +20,7 @@ button, label{
     font-family: etching;
     color: rgba(218, 170, 13, 0.774);
     background-color: transparent;
+    user-select: none;
 }
 
 
@@ -45,6 +46,7 @@ button, label{
     color: rgba(218, 170, 13, 0.774);
     font-family: etching;
     font-size: 60px;
+    user-select: none;
 }
 
 #screen-container{
@@ -93,6 +95,7 @@ button, label{
     background-color: rgba(32, 32, 32, 0.527);
     padding: 10px;
     color: rgba(218, 170, 13, 0.774);
+    user-select: none;
 
 }
 

@@ -83,3 +83,13 @@ button, label{
     margin-right: 120px;
     margin-top: 5px;
 }
+
+#footer{
+    text-align: center;
+    font-family: etching;
+    font-size: 30px;
+    background-color: rgba(32, 32, 32, 0.527);
+    padding: 10px;
+    color: rgba(218, 170, 13, 0.774);
+
+}
